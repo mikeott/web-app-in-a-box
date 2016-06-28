@@ -1,0 +1,19 @@
+{
+   "author": "Michael Ott",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "pop-out.html"
+   },
+   "description": "Load your hosted website/webapp into a Chrome a popout box",
+   "homepage_url": "http://michaelott.id.au",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Webapp in a Box",
+   "options_page": "options.html",
+   "permissions": [ "storage" ],
+   "version": "0.1"
+}
