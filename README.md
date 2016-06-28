@@ -1,5 +1,6 @@
 # web-app-in-a-box
-Add any web app or web site into a Chrome pop-out box. Just enter a URL, and you're done!
+
+This Chrome Extension will let you run any web app or web site in a Chrome pop-out box. Just enter a URL, and you're done!
 
 This is based on a Chrome extension I made (https://goo.gl/Ip3Vwi) for the <a href="http://taskrocket.info/">Task Rocket</a> project management system.
 
