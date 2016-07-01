@@ -1,3 +1,4 @@
+
 # web-app-in-a-box
 
 This Chrome Extension will let you run any web app or web site in a Chrome pop-out box. Just enter a URL, and you're done!
@@ -15,5 +16,11 @@ This modified version removes all the Task Rocket branding essentially making it
 
 If you want to publish your own version on the official Chrome Web Store, see the <a href="https://developer.chrome.com/webstore/publish">official docs</a>.
 
-<img src="http://michaelott.id.au/web-app-in-a-box.gif" />
+**WordPress users:** If you're having difficulty getting your website to work with this, add this to your theme functions.php file: 
 
+```
+    remove_action( 'login_init', 'send_frame_options_header' );
+    remove_action( 'admin_init', 'send_frame_options_header' );
+```
+
+<img src="http://michaelott.id.au/web-app-in-a-box.gif" />
