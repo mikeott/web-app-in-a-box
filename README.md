@@ -23,4 +23,4 @@ If you want to publish your own version on the official Chrome Web Store, see th
     remove_action( 'admin_init', 'send_frame_options_header' );
 ```
 
-<img src="http://michaelott.id.au/web-app-in-a-box.gif" />
+<img src="http://michaelott.id.au/_misc/web-app-in-a-box.gif" />
