@@ -3,10 +3,6 @@
 
 This Chrome Extension will let you run any web app or web site in a Chrome pop-out box. Just enter a URL, and you're done!
 
-This is based on a Chrome extension I made (https://goo.gl/Ip3Vwi) for the <a href="http://taskrocket.info/">Task Rocket</a> project management system.
-
-This modified version removes all the Task Rocket branding essentially making it a white-label product for anyone to integrate into their own services or products.
-
 <h2>How to test in Chrome</h2>
 
 1. Go to Chrome settings -> More Tools -> Extensions
