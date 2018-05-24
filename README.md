@@ -1,5 +1,5 @@
 
-# web-app-in-a-box
+# Web app in a box
 
 This Chrome Extension will let you run any web app or web site in a Chrome pop-out box. Just enter a URL, and you're done!
 
