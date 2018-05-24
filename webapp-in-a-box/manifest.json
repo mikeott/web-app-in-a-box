@@ -1,11 +1,20 @@
 {
-   "author": "Michael Ott",
+    "author": "Michael Ott",
+    "background": {
+       "scripts": [ "background.js" ]
+    },
    "browser_action": {
       "default_icon": "icon.png",
       "default_popup": "pop-out.html"
    },
+   "content_scripts": [ {
+    "all_frames": true,
+    "js": [ "content.js" ],
+    "matches": [ "\u003Call_urls>" ],
+    "run_at": "document_end"
+    } ],
    "description": "Load your hosted website/webapp into a Chrome a popout box",
-   "homepage_url": "http://michaelott.id.au",
+   "homepage_url": "https://michaelott.id.au",
    "icons": {
       "128": "icon128.png",
       "16": "icon16.png",
@@ -14,6 +23,6 @@
    "manifest_version": 2,
    "name": "Webapp in a Box",
    "options_page": "options.html",
-   "permissions": [ "storage" ],
+   "permissions": [ "tabs", "activeTab", "storage", "http://*/", "https://*/" ],
    "version": "0.1"
 }
