@@ -18,5 +18,3 @@ If you want to publish your own version on the official Chrome Web Store, see th
     remove_action( 'login_init', 'send_frame_options_header' );
     remove_action( 'admin_init', 'send_frame_options_header' );
 ```
-
-<a href="https://www.buymeacoffee.com/mikeo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
